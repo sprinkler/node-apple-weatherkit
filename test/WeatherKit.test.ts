@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2022 RainMachine - Green Electronics LLC
+ * Author: Nicu Pavel
+ * License: MIT
+ */
+
 import { WeatherKitAuth, WeatherKit } from '../src/WeatherKit'
 import { DataSet, Err, isErr, WeatherKitResponse } from '../src/types'
 

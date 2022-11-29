@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2022 RainMachine - Green Electronics LLC
+ * Author: Nicu Pavel
+ * License: MIT
+ */
+
 export type DataSet = 'currentWeather' | 'forecastDaily' | 'forecastHourly' | 'forecastNextHour' | 'weatherAlerts'
 
 export interface QueryParams {
