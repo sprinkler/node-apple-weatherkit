@@ -1,6 +1,6 @@
 {
   "name": "node-apple-weatherkit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Apple WeatherKit API node.js implementation",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -30,17 +30,11 @@
     "dist"
   ],
   "keywords": [
-    "example",
-    "typescript",
-    "npm",
-    "package",
-    "sample",
-    "boilerplate",
-    "starter",
-    "demo",
-    "cjs",
-    "esm",
-    "umd"
+    "Apple",
+    "WeatherKit",
+    "Weather",
+    "API",
+    "REST"
   ],
   "author": "Nicu Pavel <npavel@linuxconsulting.ro>",
   "license": "MIT",

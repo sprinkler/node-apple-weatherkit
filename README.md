@@ -1,8 +1,9 @@
 # Apple WeatherKit for node.js
 
-Allows fetching weather data using Apple WeatherKit API.
+Allows fetching weather data using [Apple WeatherKit API](https://developer.apple.com/documentation/weatherkitrestapi/).
+Follows Apple WeatherKit object and query parameters.
 
-# Using
+## Using
 ```
 import * as fs from 'fs'
 import WeatherKit from 'node-apple-weatherkit'
@@ -39,5 +40,19 @@ import { WeatherKitAuth, DataSet, Err, isErr, WeatherKitResponse } from 'node-ap
 })()
 ```
 
+## Query parameters
+
+Query parameters can be added to WeatherKit.weather.get() by supplying a QueryParams object as parameter. Known parameters are:
+
+```
+    countryCode?: string
+    currentAsOf?: Date
+    dailyEnd?: Date
+    dailyStart?: Date
+    hourlyEnd?: Date
+    hourlyStart?: Date
+    dataSets?: DataSet[]
+    timezone?: string | 'Etc/UTC'
+```
 
 
