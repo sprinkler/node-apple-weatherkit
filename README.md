@@ -5,10 +5,12 @@ Allows fetching weather data using Apple WeatherKit API.
 # Using
 ```
 import * as fs from 'fs'
-import { WeatherKitAuth, WeatherKit } from './WeatherKit'
-import { DataSet, WeatherKitResponse } from './types'
+import WeatherKit from 'node-apple-weatherkit'
+import { WeatherKitAuth, DataSet, Err, isErr, WeatherKitResponse } from 'node-apple-weatherkit'
 
 ;(async () => {
+
+    // Read the key from file. Can be also assigned inline
     const key = fs.readFileSync('key/AuthKey_APPLEKEYID.p8')
 
     const defaultAuth: WeatherKitAuth = {
@@ -36,4 +38,6 @@ import { DataSet, WeatherKitResponse } from './types'
     }
 })()
 ```
+
+
 
