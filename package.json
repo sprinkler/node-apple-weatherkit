@@ -1,6 +1,6 @@
 {
   "name": "node-apple-weatherkit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Apple WeatherKit API node.js implementation",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
