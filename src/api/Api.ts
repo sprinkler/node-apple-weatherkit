@@ -20,8 +20,8 @@ export default class Api {
             },
         })
 
-        if (response.status >= 400) {
-            return Err(`API Fail for ${url}`)
+        if (response.status != 200) {
+            return Err(await response.text(), response.status)
         }
 
         return (await response.json()) as T
